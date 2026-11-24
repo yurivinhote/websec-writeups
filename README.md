@@ -15,6 +15,8 @@ cause explained and tied to real-world application/API security.
 | [Cross-Site Scripting (XSS)](cross-site-scripting.md) | A03 | Reflected (HTML/JS context), stored, DOM-based |
 | [Server-Side Request Forgery (SSRF)](ssrf.md) | A10 | Localhost, internal network scan, blacklist bypass, open-redirect chaining, blind/OAST |
 | [Path Traversal & OS Command Injection](path-traversal-command-injection.md) | A01 / A03 | Arbitrary file read, RCE via shell injection |
+| [File Upload Vulnerabilities](file-upload.md) | A03 / A05 | RCE via web shell upload, validation bypasses |
+| [XML External Entity (XXE) Injection](xxe.md) | A05 | File retrieval, XXE→SSRF, blind/OAST |
 
 ## Tools
 
